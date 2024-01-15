@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2023/07/30/Hand-Drawn-Abstract-Aesthetic-Background-Graphics-75748832-1.jpg);
+    background-size: 100% auto;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    /* Marrom escuro para o texto */
+}
+
+body {
+    background-color: #f0f0f0; /* Cor de fundo do corpo */
+    margin: 0;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+#emoji-container {
+    font-size: 2em;
+}
+header {
+    background-color: rgba(20, 134, 196, 0.349);
+    /* Azul para o cabeçalho */
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+}
+
+.text-1 {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.text-2 {
+    margin-left: 25%;
+    color: #1E90FF; /* Azul-royal */
+}
+
+.li-1 {
+    margin-left: 25%;
+    color: #1E90FF; /* Azul-royal */
+}
