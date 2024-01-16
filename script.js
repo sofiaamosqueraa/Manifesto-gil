@@ -45,3 +45,23 @@ document.addEventListener('DOMContentLoaded', function () {
     // Chamar a função para aplicar a cor da borda a cada 500 milissegundos (0.5 segundos)
     setInterval(aplicarCorBorda, 500);
 });
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Obtén referencias a los elementos
+    const mostrarContenidoBtn = document.getElementById('mostrarContenidoBtn');
+    const contenidoOculto = document.getElementById('contenidoOculto');
+
+    // Añade un event listener al botón para mostrar/ocultar el contenido
+    mostrarContenidoBtn.addEventListener('click', function () {
+        // Alternar la visibilidad del contenido
+        if (contenidoOculto.style.display === 'none' || contenidoOculto.style.display === '') {
+            contenidoOculto.style.display = 'block';
+        } else {
+            contenidoOculto.style.display = 'none';
+        }
+    });
+});
